@@ -1,0 +1,26 @@
++ uj feature
+- bug kiszedés
+* javitás
+# komment
+
+
+2021.06.17 V 1.1.0
+* menuredszer fejlesztése
+# menurendszerrel ellátott mûködõ játék!!!
+
+2021.06.17 V 1.0.3
++ LongLander(szinte meg is van az egész)
+* menurendszer bõvitése(oop-sitása, képek berakása, playmenu bõvités)
+
+2021.06.16 V 1.0.2
+* menu rendszert csinálom továbbra is
++ fuelbar
+
+2021.06.15 V 1.0.1
++ menu bevezetésének elkezdése
++ landing site 2 képet beraktam
+
+2021.06.14 V 1.0.0
+# elsõ verziómentés mivel hogy kékhalállal elveszett egy 200 soros .cpp file.
+# megvan az alapjáték, player.cpp az egyedüli +file, most kezdem el a surface.cpp amit a pálya miatt csinálok
++ landing site2 különbözõ magasságu is lehet
