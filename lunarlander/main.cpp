@@ -13,7 +13,7 @@
 
 int main()
 {
-
+//git
     
 
     sf::RenderWindow window(sf::VideoMode(SCREEN_SIZE_X, SCREEN_SIZE_Y), "Lunar Lander"); //, sf::Style::Fullscreen
@@ -41,6 +41,7 @@ int main()
     Explosion explosionanimation(explosionanimationTexture, count,window);
 
     int explosioncounter = 110;
+    int sleepcounter = 0;
 
     while (window.isOpen())
     {
@@ -122,7 +123,16 @@ int main()
        // explosionanimation.Update();
        // explosionanimation.Draw(window);
         window.display();
-        Sleep(10);
+        
+        if (++sleepcounter==2)
+        {
+            Sleep(10);
+            sleepcounter = 0;
+        }
+        else
+        {
+            Sleep(0);
+        }
         
         window.clear();
         
